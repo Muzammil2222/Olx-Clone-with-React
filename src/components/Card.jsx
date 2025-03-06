@@ -8,7 +8,6 @@ const  Card = ({title, location, image, priceRs, lastUpdateDate}) =>{
         border: '1px solid #ddd',
         borderRadius: '8px',
         width: '300px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
         textAlign: 'left',
         backgroundColor: '#fff',
         fontfamily: 'Arial, sans-serif',
@@ -35,7 +34,6 @@ const  Card = ({title, location, image, priceRs, lastUpdateDate}) =>{
         <p>{location}</p>
         <p>{lastUpdateDate}</p>
         </div>
-        <Btn title='Buy Now' />
       </div>
       )
 }

@@ -32,7 +32,7 @@ function Header() {
             fontSize: '40px',
             color: '#002f34',
             fontFamily: 'sans-serif',
-        }}>Mobile Phones</h1>
+        }}>Cars & Bikes</h1>
 
 
       </div>
