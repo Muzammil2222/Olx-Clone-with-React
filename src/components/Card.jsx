@@ -17,6 +17,7 @@ const  Card = ({title, location, image, priceRs, lastUpdateDate}) =>{
         width: '100%',
         height: "154px",
         objectFit: 'cover',
+        borderRadius: '8px 8px 0px 0px',
       };
 
       const cardInner = {
@@ -27,7 +28,9 @@ const  Card = ({title, location, image, priceRs, lastUpdateDate}) =>{
         <div style={cardStyle}>
         <img src={image} alt="Placeholder" style={imageStyle} />
         <div style={cardInner}>
-            <p>{priceRs}</p>
+            <p style={{
+              marginTop: '0',
+            }}>{priceRs}</p>
         <h3 style={{
             margin: '0',
         }}>{title}</h3>
